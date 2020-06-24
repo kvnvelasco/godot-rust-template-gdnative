@@ -1,0 +1,19 @@
+[general]
+singleton=false
+load_once=true
+symbol_prefix="godot_"
+reloadable=false
+
+[entry]
+Android.armeabi-v7a="res://scripts/target/armv7-linux-androideabi/debug/libgdnative_rust.so"
+Android.arm64-v8a="res://scripts/target/aarch64-linux-android/debug/libgdnative_rust.so"
+Android.x86="res://scripts/target/i686-linux-android/debug/libgdnative_rust.so"
+Android.x86_64="res://scripts/target/x86_64-linux-android/debug/libgdnative_rust.so"
+X11.64="res://scripts/target/debug/libgdnative_rust.so"
+
+[dependencies]
+Android.armeabi-v7a=[  ]
+Android.arm64-v8a=[  ]
+Android.x86=[  ]
+Android.x86_64=[  ]
+X11.64=[  ]

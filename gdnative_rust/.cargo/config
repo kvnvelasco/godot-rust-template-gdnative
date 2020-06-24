@@ -1,0 +1,17 @@
+
+
+[target.x86_64-linux-android]
+ar = "<ANDROID_HOME>/ndk/21.2.6472646/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar"
+linker = "<ANDROID_HOME>/ndk/21.2.6472646/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android23-clang"
+
+[target.aarch64-linux-android]
+ar = "<ANDROID_HOME>/ndk/21.2.6472646/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar"
+linker = "<ANDROID_HOME>/ndk/21.2.6472646/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android26-clang"
+
+[target.armv7-linux-androideabi]
+ar = "<ANDROID_HOME>/ndk/21.2.6472646/toolchains/llvm/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ar"
+linker = "<ANDROID_HOME>/ndk/21.2.6472646/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi23-clang"
+
+[target.i686-linux-android]
+ar = "<ANDROID_HOME>/ndk/21.2.6472646/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ar"
+linker = "<ANDROID_HOME>/ndk/21.2.6472646/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android23-clang"
